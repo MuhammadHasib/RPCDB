@@ -67,7 +67,7 @@ def getJSON(name_):
 ############################################
 def RPCTree(jsonAm, jsonBm):
   tree_ = TTree("tree",'RPC WBM tree')
-  fevent_ =RoottTree()
+  fevent_ =RootTree()
   fevent_.book(tree_)
   ###############
   for i,dataA3 in enumerate(jsonAm):
