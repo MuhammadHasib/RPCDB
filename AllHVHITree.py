@@ -3,10 +3,6 @@ import json
 from ROOT import *
 import datetime
 
-###########
-#HI_EN4_2015_2.txt
-#HV_EN4_2015_2.txt
-
 gROOT.ProcessLine(".L RootTree.h+");
 class merge():
     def __init__(self):
